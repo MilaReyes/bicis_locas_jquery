@@ -1,9 +1,9 @@
 // traemos los elementos
-var name = document.getElementById('name');
-var lastname = document.getElementById('lastname');
-var email = document.getElementById('input-email');
-var password = document.getElementById('input-password');
-var select = document.getElementsByTagName('select')[0];
+var name = $("input #name").val();
+var lastname = $("input #lastname").val();
+var email = $("input #input-email").val();
+var password = $("input #input-password").val();
+var select = $('select')[0];
 
 var div_checkbox = document.getElementsByClassName('checkbox')[0];
 var checkbox = div_checkbox.getElementsByTagName('input')[0];
